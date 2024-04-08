@@ -1,0 +1,35 @@
+.footer {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/collage.jpeg);
+  color: #fff;
+  padding: 30px 0;
+  height: auto;
+  overflow: hidden;
+  background-size: cover;
+  object-fit: cover;
+  background-blend-mode: hue;
+  background-color: #000000bb;
+}
+
+.footer-logo {
+  max-width: 70px;
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links li {
+  margin-bottom: 10px;
+}
+
+.newsletter-form {
+  margin-top: 20px;
+}
+
+.btn-subscribe {
+  background-color: #dc3545;
+  border-color: #dc3545;
+}

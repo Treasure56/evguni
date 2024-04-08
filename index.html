@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="./assets/bootstrap-5.1.3-dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="top-bar d-flex justify-content-around p-1 bg-light">
+      <div class="d-flex gap-5">
+        <a href="" class="text-uppercase text-decoration-none text-dark"
+          >Call us today:</a
+        >
+        <p class="m-0">08101110120</p>
+      </div>
+      <!-- <div class="d-flex gap-5">
+        <a href="" class="text-uppercase text-decoration-none text-dark"
+          >Call us today</a
+        >
+        <p class="m-0">08101110120</p>
+      </div> -->
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+      <div class="container-fluid bg-success">
+        <a href="/" class="fs-5 text-white text-decoration-none"
+          >Evergreen University</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+              <p class="fs-5">Evergreen University</p>
+            </h5>
+            <button
+              type="button"
+              class="btn-close text-reset Close border-dark text-danger"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav justify-content-end gap-2 flex-grow-1 pe-3">
+              <li class="nav-item">
+                <a
+                  class="nav-link text-dark"
+                  aria-current="page"
+                  href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="faculties.html">faculty</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="contact.html">Contact</a>
+              </li>
+
+              <button
+                href="login.html"
+                class="nav-item px-2 text-white"
+                style="
+                  border-radius: 40px;
+                  background-color: transparent;
+                  border: 1px solid white;
+                  font-size: 18px;
+                "
+              >
+                Login
+              </button>
+              <button
+                href="signup.html"
+                class="nav-item px-2 text-white"
+                style="
+                  border-radius: 40px;
+                  background-color: transparent;
+                  border: 1px solid white;
+                  font-size: 18px;
+                "
+              >
+                Register
+              </button>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <main>
+      <div class="contain">
+        <section id="carousel">
+          <div class="slide active col-md-12">
+            <img
+              src="./assets/img/pexels-george-pak-7972719.jpg"
+              alt="furniture"
+              class="img-fluid"
+            />
+
+            <div class="info d-flex flex-column align-items-start">
+              <p class="text-uppercase fw-bold fs-2">
+                Welcome to Evg University
+              </p>
+              <div class="d-flex justify-content-start">
+                <p class="text-uppercase fs-5 border-text p-2 px-2">
+                  The star citadel of learning
+                </p>
+              </div>
+              <p class="">Your gateway to knowledge and Excellence !</p>
+
+              <div class="d-flex justify-content-start">
+                <button class="p-2">read more</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide col-md-12">
+            <img
+              src="./assets/img/pexels-monstera-production-6238120.jpg"
+              alt="furniture"
+              class="img-fluid"
+            />
+            <div class="info d-flex align-items-center flex-column text-center">
+              <p class="text-uppercase fs-5 border-text p-2 px-5">
+                Discover the limitless possibilities in Evg
+              </p>
+              <p class="exe p-2 fs-1">Your citadel of Excellence!</p>
+              <p class="">Bring out the best in you</p>
+              <div class="d-flex justify-content-center">
+                <button class="p-2 but">Apply Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="slide col-md-12">
+            <img
+              src="./assets/img/pexels-pixabay-256455.jpg"
+              alt="furniture"
+              class="img-fluid"
+            />
+            <div class="info d-flex align-items-end flex-column text-end">
+              <p class="text-uppercase fs-5 border-text p-2 px-5">
+                Discover the limitless possibilities in Evg
+              </p>
+              <p class="exe p-2 fs-2">A community of thinkers & doers.</p>
+              <p class="">Bring out the best in you</p>
+              <div class="d-flex justify-content-center">
+                <button class="p-2 but">Apply Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="navigation">
+            <div class="button active"></div>
+            <div class="button"></div>
+            <div class="button"></div>
+          </div>
+        </section>
+      </div>
+
+      <div
+        class="about-us-container justify-content-start align-item-start p-5"
+      >
+        <div class="about-us py-5">
+          <div class="row">
+            <div class="col-md-7 about-content text-start">
+              <h1 class="about-heading fs-2 text-success" id="about-section">
+                Welcome to Imo State University
+              </h1>
+              <p class="about-paragraph">
+                AVG University was established in 1981 and has since grown to
+                become one of the leading universities in the country. The
+                university offers a wide range of undergraduate and postgraduate
+                programs in fields. It also has a strong research focus and is
+                known for its commitment to academic excellence and innovation
+              </p>
+              <a href="" class="about-link btn btn-success">Read More</a>
+            </div>
+
+            <div class="col-lg-5">
+              <img
+                src="./assets/img/pexels-yan-krukau-8199557.jpg"
+                class="about-img w-100"
+                alt="about_img"
+                height="300px"
+              />
+              <div class="d-flex justify-content-center py-3">
+                <button class="btn btn-success">view profile</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid counter p-5 gap-5">
+        <div class="row counter-content flex-wrap-reverse">
+          <div
+            class="bg-warning rounded col-12 col-md-6 col-lg-3 col-sm-12 p-2 fs-1 text-white text-center d-flex flex-column justify-content-center align-item-start box"
+          >
+            <h3>40,000+</h3>
+            <h6>Students</h6>
+          </div>
+          <div
+            class="bg-success rounded col-12 col-md-6 col-lg-3 col-sm-12 p-1 fs-1 text-white text-center px-5 d-flex align-items-center justify-content-center flex-column box"
+          >
+            <p>23</p>
+            <h6>Faculties</h6>
+          </div>
+          <div
+            class="bg-dark rounded col-12 col-md-6 col-lg-3 col-sm-12 p-1 fs-1 text-white text-center px-5 d-flex align-items-center flex-column justify-content-center box"
+          >
+            <p>68</p>
+            <h6>departments</h6>
+          </div>
+          <div
+            class="bg-transparant rounded col-12 col-md-6 col-lg-3 p-1 fs-1 text-white box"
+          >
+            unlimited <br />
+            opportunities
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center p-5">
+        <h1 class="fs-3">
+          Explore <span class="text-success">Evergreen</span>
+        </h1>
+        <p class="fs-5">
+          Find out what makes our student experience so rich, meaningful and
+          life-changing.
+        </p>
+
+        <div class="row fw-bold">
+          <div class="col-md-3 d-flex text-white position-relative p-2">
+            <div class="position-relative exp">
+              <img
+                src="./assets/img/pexels-emily-ranquist-1205651.jpg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 exp-text"
+              >
+                <p class="">EVG online Courses</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex text-white position-relative p-2">
+            <div class="position-relative exp">
+              <img
+                src="./assets/img/collage.jpeg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 exp-text"
+              >
+                <p class="">Programme of studies</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex text-white position-relative p-2">
+            <div class="position-relative exp">
+              <img
+                src="./assets/img/7 Tips for Public Speaking.jpeg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 exp-text"
+              >
+                <p class="">Research & Development</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex text-white position-relative p-2">
+            <div class="position-relative exp">
+              <img
+                src="./assets/img/20 Things Every ASU Freshman Needs To Know - Society19.jpeg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 exp-text"
+              >
+                <p class="">Admission</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex text-white position-relative p-2">
+            <div class="position-relative exp">
+              <img
+                src="./assets/img/Comment clarifier ce que vous désirez vraiment dans votre vie.jpeg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 exp-text"
+              >
+                <p class="">Scholarship</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex text-white position-relative p-2">
+            <div class="position-relative exp">
+              <img
+                src="./assets/img/745210bc-6697-48d7-89aa-712109b5812f.jpeg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 exp-text"
+              >
+                <p class="">Evg center</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex text-white position-relative p-2">
+            <div class="position-relative exp">
+              <img
+                src="./assets/img/Kimmery’s Tips For A Strong Book Launch Party - The Debutante Ball.jpeg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 exp-text"
+              >
+                <p class="">Evg alumni</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex text-white position-relative p-2">
+            <div class="position-relative exp">
+              <img
+                src="./assets/img/Free Photo _ Young woman with backpack walking through green park with silver laptop in hands.jpeg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 exp-text"
+              >
+                <p class="">Campus Life</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container-fluid sts p-5 gap-5">
+        <div class="d-flex justify-start p-5">
+          <div class="d-flex flex-column gap-3 visit" style="width: 500px">
+            <div class="" style="line-height: 17px">
+              <p class="text-warning fs-3">Visit EVG School of</p>
+              <p class="fs-1 text-white">postgraduate studies</p>
+            </div>
+            <p class="text-white">
+              with the reputation of Excellence across the humanities, sciences,
+              creative art, business, engineering and health science...
+            </p>
+            <div class="d-flex justify-content-start">
+              <button class="btn btn-success">Read more</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container text-center p-5">
+        <h1 class="fs-3">
+          Our programmes of <span class="text-success">Studies</span>
+        </h1>
+        <p class="fs-5">
+          Find out what makes our student experience so rich, meaningful and
+          life-changing.
+        </p>
+
+        <div class="row fs-4 fw-bold">
+          <div class="col-md-4 d-flex text-white position-relative p-2">
+            <div class="position-relative programmes">
+              <img
+                src="./assets/img/7 Tips for Public Speaking.jpeg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 programme-text"
+              >
+                <p class="">Post Graduate</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex text-white position-relative p-2">
+            <div class="position-relative programmes">
+              <img
+                src="./assets/img/pexels-emily-ranquist-1205651.jpg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 programme-text"
+              >
+                <p class="">undergraduate</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex text-white position-relative p-2">
+            <div class="position-relative programmes">
+              <img
+                src="./assets/img/pexels-emily-ranquist-1205651.jpg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 programme-text"
+              >
+                <p class="">continuing education</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex text-white position-relative p-2">
+            <div class="position-relative programmes">
+              <img
+                src="./assets/img/pexels-emily-ranquist-1205651.jpg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 programme-text"
+              >
+                <p class="">pre-degree</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 d-flex text-white position-relative p-2">
+            <div class="position-relative programmes">
+              <img
+                src="./assets/img/pexels-emily-ranquist-1205651.jpg"
+                class="img-fluid rounded"
+                alt=""
+              />
+              <div
+                class="p-5 position-absolute d-flex justify-content-center align-items-center top-0 w-100 h-100 programme-text"
+              >
+                <p class="">JUPEB</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3 d-flex text-white position-relative p-2"></div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-4 position-relative p-2">
+            <div class="card text-white">
+              <div class="card-body d-flex gap-3 text-dark">
+                <div class="date">
+                  <p class="fs-1 fw-bold text-success mb-0">17</p>
+                  <span class="text-muted">March</span>
+                </div>
+                <div class="event-details">
+                  <p class="mb-0 text-start">
+                    Resumption of Students after Election Break
+                  </p>
+                  <div class="d-flex align-items-center gap-2 text-success">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-clock"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 0 8 8A8 8 0 0 0 8 0zm-.5 4a.5.5 0 0 1 .5.5v4.8l3.9.98a.5.5 0 1 1-.2.98l-4.5-1.125A.5.5 0 0 1 7 9V4.5a.5.5 0 0 1 .5-.5z"
+                      />
+                    </svg>
+                    <p class="mb-0">7:00 am - 11:30 pm</p>
+                    <span class="badge bg-secondary">EVG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative p-2">
+            <div class="card text-white">
+              <div class="card-body d-flex gap-3 text-dark">
+                <img
+                  src="./assets/img/pexels-yan-krukau-8199557.jpg"
+                  alt=""
+                  width="83px"
+                  height="83px"
+                />
+                <div class="event-details">
+                  <p class="mb-0 text-start">
+                    Payment of All Types of Fees to EVG
+                  </p>
+                  <div class="d-flex align-items-center gap-2 text-success">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="mb-0" style="font-size: 14px">
+                      Evergreen University
+                    </p>
+                    <span class="badge bg-secondary">EVG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 position-relative p-2">
+            <div class="card text-white">
+              <div class="card-body d-flex gap-3 text-dark">
+                <img
+                  src="./assets/img/pexels-yan-krukau-8199557.jpg"
+                  alt=""
+                  width="83px"
+                  height="83px"
+                />
+                <div class="event-details">
+                  <p class="mb-0 text-start">
+                    Balance academics with morality, EVG VC urges universities
+                  </p>
+                  <div class="d-flex align-items-center gap-2 text-success">
+                    <i class="fa-solid fa-copy"></i>
+                    <p class="mb-0" style="font-size: 14px">comment</p>
+                    <span class="badge bg-secondary">EVG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative p-2">
+            <div class="card text-white">
+              <div class="card-body d-flex gap-3 text-dark">
+                <div class="date">
+                  <p class="fs-1 fw-bold text-success mb-0">30</p>
+                  <span class="text-muted">June</span>
+                </div>
+                <div class="event-details">
+                  <p class="mb-0 text-start">
+                    Resumption of Students after Election Break
+                  </p>
+                  <div class="d-flex align-items-center gap-2 text-success">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-clock"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 0 8 8A8 8 0 0 0 8 0zm-.5 4a.5.5 0 0 1 .5.5v4.8l3.9.98a.5.5 0 1 1-.2.98l-4.5-1.125A.5.5 0 0 1 7 9V4.5a.5.5 0 0 1 .5-.5z"
+                      />
+                    </svg>
+                    <p class="mb-0">7:00 am - 11:30 pm</p>
+                    <span class="badge bg-secondary">EVG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative p-2">
+            <div class="card text-white">
+              <div class="card-body d-flex gap-3 text-dark">
+                <img
+                  src="./assets/img/pexels-yan-krukau-8199557.jpg"
+                  alt=""
+                  width="83px"
+                  height="83px"
+                />
+                <div class="event-details">
+                  <p class="mb-0 text-start">
+                    Course Registration and Examination Card
+                  </p>
+                  <div class="d-flex align-items-center gap-2 text-success">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="mb-0" style="font-size: 14px">
+                      Evergreen University
+                    </p>
+                    <span class="badge bg-secondary">EVG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative p-2">
+            <div class="card text-white">
+              <div class="card-body d-flex gap-3 text-dark">
+                <img
+                  src="./assets/img/pexels-yan-krukau-8199557.jpg"
+                  alt=""
+                  width="83px"
+                  height="83px"
+                />
+                <div class="event-details">
+                  <p class="mb-0 text-start">
+                    Balance academics with morality, EVG VC urges universities
+                  </p>
+                  <div class="d-flex align-items-center gap-2 text-success">
+                    <i class="fa-solid fa-copy"></i>
+                    <p class="mb-0" style="font-size: 14px">comment</p>
+                    <span class="badge bg-secondary">EVG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative p-2">
+            <div class="card text-white">
+              <div class="card-body d-flex gap-3 text-dark">
+                <div class="date">
+                  <p class="fs-1 fw-bold text-success mb-0">17</p>
+                  <span class="text-muted">March</span>
+                </div>
+                <div class="event-details">
+                  <p class="mb-0 text-start">
+                    Commencement of First Semester Examination for 2022/2023
+                    Academic Session
+                  </p>
+                  <div class="d-flex align-items-center gap-2 text-success">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="16"
+                      height="16"
+                      fill="currentColor"
+                      class="bi bi-clock"
+                      viewBox="0 0 16 16"
+                    >
+                      <path
+                        d="M8 0a8 8 0 1 0 8 8A8 8 0 0 0 8 0zm-.5 4a.5.5 0 0 1 .5.5v4.8l3.9.98a.5.5 0 1 1-.2.98l-4.5-1.125A.5.5 0 0 1 7 9V4.5a.5.5 0 0 1 .5-.5z"
+                      />
+                    </svg>
+                    <p class="mb-0">7:00 am - 11:30 pm</p>
+                    <span class="badge bg-secondary">EVG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative p-2">
+            <div class="card text-white">
+              <div class="card-body d-flex gap-3 text-dark">
+                <img
+                  src="./assets/img/pexels-yan-krukau-8199557.jpg"
+                  alt=""
+                  width="83px"
+                  height="83px"
+                />
+                <div class="event-details">
+                  <p class="mb-0 text-start">
+                    Instructions to returning students
+                  </p>
+                  <div class="d-flex align-items-center gap-2 text-success">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <p class="mb-0" style="font-size: 14px">EVG University</p>
+                    <span class="badge bg-secondary">EVG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 position-relative p-2">
+            <div class="card text-white">
+              <div class="card-body d-flex gap-3 text-dark">
+                <img
+                  src="./assets/img/pexels-yan-krukau-8199557.jpg"
+                  alt=""
+                  width="83px"
+                  height="83px"
+                />
+                <div class="event-details">
+                  <p class="mb-0 text-start">
+                    Commencement of Pre Degree Admission
+                  </p>
+                  <div class="d-flex align-items-center gap-2 text-success">
+                    <i class="fa-solid fa-copy"></i>
+                    <p class="mb-0" style="font-size: 14px">comment</p>
+                    <span class="badge bg-secondary">EVG</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">Evergreen University</div>
+          <div class="col-md-3">
+            <h5>Quick Links</h5>
+            <ul class="footer-links">
+              <li>
+                <a href="#" class="text-white text-decoration-none">Home</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">About Us</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">Services</a>
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Contact Us</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-3">
+            <h5>Useful Links</h5>
+            <ul class="footer-links">
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Privacy Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none"
+                  >Terms of Service</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-white text-decoration-none">FAQs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="bg-dark text-white d-flex p-1 justify-content-between">
+      <div>
+        <p style="font-size: 13px">
+          CopyRight@2024 imo state university. All Right Reserved
+        </p>
+      </div>
+      <div class="d-flex gap-2" style="font-size: 13px">
+        <p>FAQ</p>
+        |
+        <p>Help Center</p>
+        |
+        <p>support</p>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/bootstrap-5.1.3-dist/js/bootstrap.bundle.min.js"></script>
+  <script src="./assets/js/script.js"></script>
+</html>
